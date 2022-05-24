@@ -1,6 +1,6 @@
 # Verificador de Soma
 
-## Projeto Iniciante - JavaScript
+## Projeto Iniciante - JavaScript (confira <a href="https://holiv.github.io/js-beginner-verificador-soma/">aqui</a>)
 
 #### Projeto proposto pelo módulo de Sintaxe e Operadores do curso de JavaScript da DIO
 
