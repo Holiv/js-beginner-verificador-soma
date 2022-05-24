@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(33, 37, 41);
+    color: rgb(222, 223, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(222, 223, 230);
+    display: flex;
+    align-items: center;
+}
+header a{
+    color:rgb(222, 223, 230);
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+header a:hover{
+    background-image: linear-gradient(90deg, rgb(76, 201, 240), rgb(181, 23, 158), rgb(247, 37, 133));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#operation{
+    width: 600px;
+    height: 50%;
+    border: 1px solid rgb(222, 223, 230);
+    border-radius: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#operation h1{
+    background-image: linear-gradient(90deg, rgb(76, 201, 240), rgb(181, 23, 158), rgb(247, 37, 133));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+#input-field{
+    width: 100%;
+}
+
+#invalid{
+    display: none;
+    width: 60%;
+    height: 32px;
+    border: 1px solid rgb(222, 223, 230);
+}
+
+#valid-d{
+    display: none;
+    width: 60%;
+    height: 32px;
+    border: 1px solid rgb(222, 223, 230);
+}
+#valid-e{
+    display: none;
+    width: 50%;
+    height: 32px;
+    border: 1px solid rgb(222, 223, 230);
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+#button-send{
+    background-image: linear-gradient(90deg, rgb(76, 201, 240), rgb(181, 23, 158), rgb(247, 37, 133));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    height: 32px;
+    width: 10%;
+    border: 1px solid rgb(181, 23, 158);
+    border-radius: 5px;
+}
+
+input{
+    width: 25%;
+    height: 29px;
+    border: 1px solid rgb(181, 23, 158);
+    border-radius: 5px;
+    background-color: rgb(222, 223, 230);
+}
+
+#reload{
+    width: 30%;
+    height: 2rem;
+    border: 1px solid rgb(181, 23, 158);
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, rgb(76, 201, 240), rgb(181, 23, 158), rgb(247, 37, 133));
+    font-size: 1rem;
+}

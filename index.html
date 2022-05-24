@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operadores JS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <script src="assets/js/operadores.js"></script>
+        <script src="https://kit.fontawesome.com/b4971a44cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="https://github.com/Holiv"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/helton-oliveira-521abbb2/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/0xh3lt0n"><i class="fa-brands fa-twitter"></i></a>
+            <a>0xh3lt0n</a>
+        </header>
+        <div id="operation">
+            <h1>Verificador de Soma</h1>
+            <div id="input-field">
+                <input id="input1" type="number" placeholder="Numero 1">
+                <input id="input2" type="number" placeholder="Numero 2">
+                <button id="button-send" onclick="getNumbers()">Enviar!</button>
+            </div>
+            <div id="invalid">
+                <span>Invalid Input</span>
+            </div>
+            <div id="valid-e">
+                <span id="equals"></span>
+            </div>
+            <div id="valid-d">
+                <span id="different"></span>
+            </div>
+
+            <button id="reload" onclick="window.location.reload()">Reload</button>
+        </div>
+    </body>
+</html>
